@@ -1,6 +1,710 @@
 {
   "FormKey": "01DB4A:Fallout4.esm",
-  "Malformed": [
-    "RACE 0001DB4A (DeathclawRace) — fixed-count-list-wrong-count, repairable (lossless): NAME appears 30 times; the Creation Kit always writes 32"
-  ]
+  "EditorID": "DeathclawRace",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Deathclaw"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "ActorEffect": [
+    "021E7F:Fallout4.esm",
+    "1CCDA3:Fallout4.esm",
+    "000806:DangerousDeathclaws.esp"
+  ],
+  "Skin": "01DB49:Fallout4.esm",
+  "BipedBodyTemplate": {},
+  "Keywords": [
+    "013795:Fallout4.esm",
+    "0317AA:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "0002C2:Fallout4.esm",
+      "Value": 10.0
+    },
+    {
+      "ActorValue": "0002C3:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "0002C4:Fallout4.esm",
+      "Value": 6.0
+    },
+    {
+      "ActorValue": "0002C5:Fallout4.esm"
+    },
+    {
+      "ActorValue": "0002C6:Fallout4.esm",
+      "Value": 5.0
+    },
+    {
+      "ActorValue": "0002C7:Fallout4.esm",
+      "Value": 5.0
+    },
+    {
+      "ActorValue": "0002C8:Fallout4.esm",
+      "Value": 4.0
+    },
+    {
+      "ActorValue": "0002D4:Fallout4.esm",
+      "Value": 510.0
+    },
+    {
+      "ActorValue": "0002D5:Fallout4.esm",
+      "Value": 50.0
+    },
+    {
+      "ActorValue": "0002D7:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "0002D8:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "0002D9:Fallout4.esm",
+      "Value": 10.0
+    },
+    {
+      "ActorValue": "0002DC:Fallout4.esm",
+      "Value": 300.0
+    },
+    {
+      "ActorValue": "0002E0:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "0002E4:Fallout4.esm",
+      "Value": 450.0
+    },
+    {
+      "ActorValue": "0002EA:Fallout4.esm",
+      "Value": 250.0
+    }
+  ],
+  "Height": {
+    "Male": 1.0,
+    "Female": 1.03
+  },
+  "DefaultWeight": {
+    "Male": {
+      "Thin": 0.5,
+      "Muscular": 0.5
+    },
+    "Female": {
+      "Thin": 0.5,
+      "Muscular": 0.5
+    }
+  },
+  "Flags": [
+    "Playable",
+    "Walks",
+    "NoCombatInWater",
+    "UsesHeadTrackAnims",
+    "UseWorldRaycastsForFootIK",
+    "CantOpenDoors",
+    "CanMeleeWhenKnockedDown",
+    "Ungendered",
+    "UseLargeActorPathing",
+    "0x400000000000",
+    "DisableWeaponCulling",
+    "UseQuadrupedController",
+    "CannotUsePlayableItems"
+  ],
+  "AccelerationRate": 0.25,
+  "DecelerationRate": 0.25,
+  "Size": "ExtraLarge",
+  "Unknown": "0xFFFFFFFFFFFFFFFF",
+  "AngularAccelerationRate": 0.25,
+  "AngularTolerance": 3.0,
+  "Unknown2": "0x00000000000000000000000000000000000000000000000000000000000096C300000000",
+  "SeverableDecalCount": 2,
+  "ExplodableDecalCount": 2,
+  "SeverableExplosion": "054A73:Fallout4.esm",
+  "SeverableImpactDataSet": "0F457B:Fallout4.esm",
+  "ExplodableExplosion": "054A73:Fallout4.esm",
+  "ExplodableImpactDataSet": "0F457B:Fallout4.esm",
+  "OrientationLimitsPitch": 90.0,
+  "OrientationLimitsRoll": 90.0,
+  "SkeletalModel": {
+    "Male": {
+      "MutagenObjectType": "SimpleModel",
+      "File": "Actors\\Deathclaw\\CharacterAssets\\skeleton.nif",
+      "Data": "0x0400000000000000000000000000000000000000"
+    },
+    "Female": {
+      "MutagenObjectType": "SimpleModel",
+      "File": "Actors\\Deathclaw\\CharacterAssets\\skeleton.nif",
+      "Data": "0x0400000000000000000000000000000000000000"
+    }
+  },
+  "MovementTypeNames": [
+    "BLDO",
+    "RUN1",
+    "SNEK",
+    "SWIM",
+    "WALK"
+  ],
+  "Voices": {
+    "Male": "0219CA:Fallout4.esm",
+    "Female": "0219CA:Fallout4.esm"
+  },
+  "NumberOfTintsInList": 1139,
+  "FacegenMainClamp": 5.0,
+  "FacegenFaceClamp": 3.0,
+  "Attacks": [
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "MeleeAttackStartFlipCar",
+      "RequiredSlot": "013F45:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 0.5,
+        "Spell": "05E1C9:Fallout4.esm",
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeattackStartLeft",
+      "RequiredSlot": "013F43:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Spell": "05E1C9:Fallout4.esm",
+        "AttackAngle": -85.0,
+        "StrikeAngle": 110.0,
+        "RecoveryTime": 25.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeAttackStartLeftSideSwipeStart",
+      "RequiredSlot": "013F43:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 2.0,
+        "Chance": 0.5,
+        "Flags": [
+          "PowerAttack"
+        ],
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeAttackStartPowerComboTailStart",
+      "RequiredSlot": "049BE7:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 2.0,
+        "Chance": 0.75,
+        "Spell": "05E1C9:Fallout4.esm",
+        "Flags": [
+          "PowerAttack"
+        ],
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeAttackStartPowerForwardStart",
+      "RequiredSlot": "049BE6:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 2.0,
+        "Chance": 0.25,
+        "Spell": "05E1C9:Fallout4.esm",
+        "Flags": [
+          "PowerAttack"
+        ],
+        "StrikeAngle": 50.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeAttackStartPowerHornRam",
+      "RequiredSlot": "049BE4:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 2.0,
+        "Chance": 1.0,
+        "Spell": "05E1C9:Fallout4.esm",
+        "Flags": [
+          "PowerAttack"
+        ],
+        "StrikeAngle": 35.0,
+        "RecoveryTime": 10.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeAttackStartPowerJumpSlash",
+      "RequiredSlot": "049BE6:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 0.75,
+        "Spell": "05E1C9:Fallout4.esm",
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeAttackStartRight",
+      "RequiredSlot": "013F42:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Spell": "05E1C9:Fallout4.esm",
+        "AttackAngle": 85.0,
+        "StrikeAngle": 110.0,
+        "RecoveryTime": 25.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeAttackStartRightSideSwipeStart",
+      "RequiredSlot": "013F42:Fallout4.esm"
+    }
+  ],
+  "BodyData": {
+    "Male": {
+      "Index": "BodyTexture",
+      "Model": {
+        "File": "Actors\\Character\\UpperBodyHumanMale.egt",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    },
+    "Female": {
+      "Index": "BodyTexture",
+      "Model": {
+        "File": "Actors\\Character\\UpperBodyHumanFemale.egt",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BodyPartData": "01DB4D:Fallout4.esm",
+  "BehaviorGraph": {
+    "Male": {
+      "File": "Actors\\Deathclaw\\DeathclawProject.hkx",
+      "Data": "0x0400000000000000000000000000000000000000"
+    },
+    "Female": {
+      "File": "Actors\\Deathclaw\\DeathclawProject.hkx",
+      "Data": "0x0400000000000000000000000000000000000000"
+    }
+  },
+  "ImpactMaterialType": "0C1AD7:Fallout4.esm",
+  "MeatCapTextureSet": "064110:Fallout4.esm",
+  "CollarTextureSet": "0B30B2:Fallout4.esm",
+  "SoundOpenCorpse": "0A5013:Fallout4.esm",
+  "SoundCloseCorpse": "0A5014:Fallout4.esm",
+  "BipedObjects": [
+    {
+      "Key": "HairTop",
+      "Value": {
+        "Name": "",
+        "Conditions": "00036C:Fallout4.esm"
+      }
+    },
+    {
+      "Key": "HairLong",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "FaceGenHead",
+      "Value": {
+        "Name": "",
+        "Conditions": "00036D:Fallout4.esm"
+      }
+    },
+    {
+      "Key": "Body",
+      "Value": {
+        "Name": "BODY"
+      }
+    },
+    {
+      "Key": "LeftHand",
+      "Value": {
+        "Name": "[U] Torso"
+      }
+    },
+    {
+      "Key": "RightHand",
+      "Value": {
+        "Name": "[U] L Arm"
+      }
+    },
+    {
+      "Key": "TorsoUnderArmor",
+      "Value": {
+        "Name": "[U] R Arm"
+      }
+    },
+    {
+      "Key": "LeftArmUnderArmor",
+      "Value": {
+        "Name": "[U] L Leg"
+      }
+    },
+    {
+      "Key": "RightArmUnderArmor",
+      "Value": {
+        "Name": "[U] R Leg"
+      }
+    },
+    {
+      "Key": "LeftLegUnderArmor",
+      "Value": {
+        "Name": "[A] Torso"
+      }
+    },
+    {
+      "Key": "RightLegUnderArmor",
+      "Value": {
+        "Name": "[A] LArm"
+      }
+    },
+    {
+      "Key": "TorsoArmor",
+      "Value": {
+        "Name": "[A] RArm"
+      }
+    },
+    {
+      "Key": "LeftArmArmor",
+      "Value": {
+        "Name": "[A] LLeg"
+      }
+    },
+    {
+      "Key": "RightArmArmor",
+      "Value": {
+        "Name": "[A] RLeg"
+      }
+    },
+    {
+      "Key": "LeftLegArmor",
+      "Value": {
+        "Name": "Headband"
+      }
+    },
+    {
+      "Key": "RightLegArmor",
+      "Value": {
+        "Name": "Eyes"
+      }
+    },
+    {
+      "Key": "Headband",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Eyes",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Beard",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Mouth",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Neck",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Ring",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Scalp",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Decapitation",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed54",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed55",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed56",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed57",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed58",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Shield",
+      "Value": {
+        "Name": "FX01"
+      }
+    },
+    {
+      "Key": "Pipboy",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "FX",
+      "Value": {
+        "Name": ""
+      }
+    }
+  ],
+  "EquipmentFlags": [
+    "Gun",
+    "Shield",
+    "Torch"
+  ],
+  "EquipmentSlots": [
+    {
+      "Slot": "013F42:Fallout4.esm",
+      "Node": "Weapon"
+    },
+    {
+      "Slot": "013F43:Fallout4.esm",
+      "Node": "WeaponLeft"
+    },
+    {
+      "Slot": "10FFFB:Fallout4.esm",
+      "Node": "Weapon"
+    },
+    {
+      "Slot": "04334F:Fallout4.esm"
+    }
+  ],
+  "UnarmedWeapon": "0C2C2A:Fallout4.esm",
+  "FaceFxPhonemes": {
+    "ForceNames": true,
+    "Aah_LipBigAah": {
+      "Name": "Aah"
+    },
+    "BigAah_LipDST": {
+      "Name": "BigAah"
+    },
+    "BMP_LipEee": {
+      "Name": "BMP"
+    },
+    "ChJSh_LipFV": {
+      "Name": "ChJSh"
+    },
+    "DST_LipK": {
+      "Name": "DST"
+    },
+    "Eee_LipL": {
+      "Name": "Eee"
+    },
+    "Eh_LipR": {
+      "Name": "Eh"
+    },
+    "FV_LipTh": {
+      "Name": "FV"
+    },
+    "I": {
+      "Name": "I"
+    },
+    "K": {
+      "Name": "K"
+    },
+    "N": {
+      "Name": "N"
+    },
+    "Oh": {
+      "Name": "Oh"
+    },
+    "OohQ": {
+      "Name": "OohQ"
+    },
+    "R": {
+      "Name": "R"
+    },
+    "Th": {
+      "Name": "th"
+    },
+    "W": {
+      "Name": "W"
+    }
+  },
+  "BaseMovementDefault": "01E1EE:Fallout4.esm",
+  "Subgraphs": [
+    {
+      "BehaviorGraph": "Actors\\deathclaw\\Behaviors\\DeathclawEverything.hkx",
+      "ActorKeywords": [
+        "030B01:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "actors\\deathclaw\\Animations\\Injured\\Left",
+        "Actors\\Deathclaw\\Animations",
+        "actors\\SharedKillMoves\\DeathclawVSHuman"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\deathclaw\\Behaviors\\DeathclawEverything.hkx",
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations",
+        "actors\\SharedKillMoves\\DeathclawVSHuman"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\deathclaw\\Behaviors\\DeathclawEverything.hkx",
+      "ActorKeywords": [
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "actors\\deathclaw\\Animations\\Injured\\Right",
+        "Actors\\Deathclaw\\Animations",
+        "actors\\SharedKillMoves\\DeathclawVSHuman"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\deathclaw\\Behaviors\\DeathclawEverything.hkx",
+      "ActorKeywords": [
+        "030B01:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "actors\\deathclaw\\Animations\\Injured\\OnGround",
+        "Actors\\Deathclaw\\Animations",
+        "actors\\SharedKillMoves\\DeathclawVSHuman"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "02A900:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureNoMirrorBehavior.hkx",
+      "TargetKeywords": [
+        "1159C7:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations\\Furniture\\PerchedAndWallSlide"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "119D07:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations\\Ambush\\ClimbOverWall"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\SingleAnimFurniture.hkx",
+      "TargetKeywords": [
+        "11AF4B:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations\\Furniture\\SingleAnim\\DeathclawPeekIntoDoorway"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\SingleAnimFurniture.hkx",
+      "TargetKeywords": [
+        "11D5DF:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations\\Furniture\\SingleAnim\\DeathclawBangOnWall"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "12CF25:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations\\Ambush\\WallSlide"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureNoMirrorBehavior.hkx",
+      "TargetKeywords": [
+        "1411CA:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations\\Furniture\\SleepOnGround"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureBehavior.hkx",
+      "TargetKeywords": [
+        "249E77:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\Deathclaw\\Animations"
+      ],
+      "Role": "Idle"
+    }
+  ],
+  "IdleChatterTimeMin": 1.0,
+  "IdleChatterTimeMax": 6.0,
+  "MorphValuesLastIndex": 1852994932,
+  "DialogueQuest": "02CB91:Fallout4.esm",
+  "BoneData": {}
 }
