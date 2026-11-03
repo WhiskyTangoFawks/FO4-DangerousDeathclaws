@@ -1,0 +1,22 @@
+{
+  "FormKey": "000807:DangerousDeathclaws.esp",
+  "EditorID": "DeathClaw_ApplyDTPerk",
+  "Flags": [
+    "Recover",
+    "NoDuration",
+    "NoMagnitude",
+    "NoArea"
+  ],
+  "Archetype": {
+    "MutagenObjectType": "MagicEffectArchetype",
+    "Type": "Script"
+  },
+  "DualCastScale": 1.0,
+  "PerkToApply": "000808:DangerousDeathclaws.esp",
+  "CastingSoundLevel": "Normal",
+  "Sounds": [],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  }
+}

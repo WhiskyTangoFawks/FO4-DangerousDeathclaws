@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/Dangerous\ Deathclaws.manifest.json

@@ -1,0 +1,6 @@
+{
+  "FormKey": "01DB4A:Fallout4.esm",
+  "Malformed": [
+    "RACE 0001DB4A (DeathclawRace) — fixed-count-list-wrong-count, repairable (lossless): NAME appears 30 times; the Creation Kit always writes 32"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "FormKey": "043365:Fallout4.esm",
+  "EditorID": "DeathclawAOEAttackExplosion",
+  "Model": {
+    "File": "Effects\\TempPowerArmorHeavyImpactExplosion.nif",
+    "Data": "0x0400000000000000000000000000000000000000"
+  },
+  "ObjectEffect": "031ED3:Fallout4.esm",
+  "ImageSpaceModifier": "000164:Fallout4.esm",
+  "ImpactDataSet": "01F5B0:Fallout4.esm",
+  "Force": 100.0,
+  "Damage": 30.0,
+  "OuterRadius": 512.0,
+  "ISRadius": 2048.0,
+  "VerticalOffsetMult": 0.3,
+  "Flags": [
+    "0x1",
+    "AlwaysUsesWorldOrientation",
+    "IgnoreLosCheck",
+    "IgnoreImageSpaceSwap"
+  ],
+  "SoundLevel": "Silent"
+}

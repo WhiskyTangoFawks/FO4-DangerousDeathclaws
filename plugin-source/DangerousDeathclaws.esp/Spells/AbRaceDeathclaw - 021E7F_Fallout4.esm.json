@@ -1,0 +1,64 @@
+{
+  "FormKey": "021E7F:Fallout4.esm",
+  "EditorID": "AbRaceDeathclaw",
+  "EquipmentType": "013F44:Fallout4.esm",
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Type": "Ability",
+  "Effects": [
+    {
+      "BaseEffect": "021E80:Fallout4.esm",
+      "Data": {}
+    },
+    {
+      "BaseEffect": "084278:Fallout4.esm",
+      "Data": {
+        "Magnitude": 16.0,
+        "Duration": 1
+      },
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "CompareOperator": "LessThan",
+          "Unknown1": "0x9A035F",
+          "ComparisonValue": 0.25,
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "GetHealthPercentage"
+          }
+        }
+      ]
+    },
+    {
+      "BaseEffect": "084278:Fallout4.esm",
+      "Data": {
+        "Magnitude": 32.0,
+        "Duration": 1
+      },
+      "Conditions": [
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "CompareOperator": "LessThan",
+          "Unknown1": "0x9A035F",
+          "ComparisonValue": 0.5,
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "GetHealthPercentage"
+          }
+        },
+        {
+          "MutagenObjectType": "ConditionFloat",
+          "CompareOperator": "GreaterThanOrEqualTo",
+          "Unknown1": "0x9A035F",
+          "ComparisonValue": 0.25,
+          "Data": {
+            "MutagenObjectType": "FunctionConditionData",
+            "Function": "GetHealthPercentage"
+          }
+        }
+      ]
+    }
+  ]
+}

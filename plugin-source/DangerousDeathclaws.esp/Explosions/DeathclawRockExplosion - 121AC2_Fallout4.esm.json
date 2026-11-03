@@ -1,0 +1,25 @@
+{
+  "FormKey": "121AC2:Fallout4.esm",
+  "EditorID": "DeathclawRockExplosion",
+  "ObjectBounds": {
+    "First": "-12, -11, -7",
+    "Second": "14, 10, 14"
+  },
+  "Model": {
+    "File": "Actors\\Deathclaw\\CharacterAssets\\DeathclawRockExplosion.nif",
+    "Data": "0x0400000006000000000000000400000001000000D034AD3C64647300E58761BD0958AB5F64647300E58761BD827A56C76464730038973CEA65A2DE6664647300582C55335A40CE296464730038973CEA17B17EBF64647300E58761BDEFA99FA86267736D0881F794"
+  },
+  "Sound1": "06C57F:Fallout4.esm",
+  "Force": 200.0,
+  "Damage": 50.0,
+  "InnerRadius": 50.0,
+  "OuterRadius": 100.0,
+  "ISRadius": 2000.0,
+  "VerticalOffsetMult": 0.1,
+  "Flags": [
+    "0x1",
+    "IgnoreImageSpaceSwap"
+  ],
+  "SoundLevel": "Normal",
+  "Stagger": "Small"
+}

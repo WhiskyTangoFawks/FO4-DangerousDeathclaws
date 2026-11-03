@@ -1,0 +1,16 @@
+{
+  "FormKey": "000806:DangerousDeathclaws.esp",
+  "EditorID": "DeathClaw_ApplyDTspell",
+  "EquipmentType": "013F44:Fallout4.esm",
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Type": "Ability",
+  "Effects": [
+    {
+      "BaseEffect": "000807:DangerousDeathclaws.esp",
+      "Data": {}
+    }
+  ]
+}
