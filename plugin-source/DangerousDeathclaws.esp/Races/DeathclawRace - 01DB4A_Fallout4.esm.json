@@ -334,85 +334,85 @@
     {
       "Key": "LeftHand",
       "Value": {
-        "Name": "[U] Torso"
+        "Name": ""
       }
     },
     {
       "Key": "RightHand",
       "Value": {
-        "Name": "[U] L Arm"
+        "Name": ""
       }
     },
     {
       "Key": "TorsoUnderArmor",
       "Value": {
-        "Name": "[U] R Arm"
+        "Name": "[U] Torso"
       }
     },
     {
       "Key": "LeftArmUnderArmor",
       "Value": {
-        "Name": "[U] L Leg"
+        "Name": "[U] L Arm"
       }
     },
     {
       "Key": "RightArmUnderArmor",
       "Value": {
-        "Name": "[U] R Leg"
+        "Name": "[U] R Arm"
       }
     },
     {
       "Key": "LeftLegUnderArmor",
       "Value": {
-        "Name": "[A] Torso"
+        "Name": "[U] L Leg"
       }
     },
     {
       "Key": "RightLegUnderArmor",
       "Value": {
-        "Name": "[A] LArm"
+        "Name": "[U] R Leg"
       }
     },
     {
       "Key": "TorsoArmor",
       "Value": {
-        "Name": "[A] RArm"
+        "Name": "[A] Torso"
       }
     },
     {
       "Key": "LeftArmArmor",
       "Value": {
-        "Name": "[A] LLeg"
+        "Name": "[A] LArm"
       }
     },
     {
       "Key": "RightArmArmor",
       "Value": {
-        "Name": "[A] RLeg"
+        "Name": "[A] RArm"
       }
     },
     {
       "Key": "LeftLegArmor",
       "Value": {
-        "Name": "Headband"
+        "Name": "[A] LLeg"
       }
     },
     {
       "Key": "RightLegArmor",
       "Value": {
-        "Name": "Eyes"
+        "Name": "[A] RLeg"
       }
     },
     {
       "Key": "Headband",
       "Value": {
-        "Name": ""
+        "Name": "Headband"
       }
     },
     {
       "Key": "Eyes",
       "Value": {
-        "Name": ""
+        "Name": "Eyes"
       }
     },
     {
@@ -484,7 +484,7 @@
     {
       "Key": "Shield",
       "Value": {
-        "Name": "FX01"
+        "Name": ""
       }
     },
     {
@@ -496,7 +496,7 @@
     {
       "Key": "FX",
       "Value": {
-        "Name": ""
+        "Name": "FX01"
       }
     }
   ],
